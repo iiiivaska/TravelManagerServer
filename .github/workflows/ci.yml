@@ -13,10 +13,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Set up Swift
+    - name: Set up Swift 6.0
       uses: swift-actions/setup-swift@v1
       with:
-        swift-version: '5.9' # или подходящая версия
+        swift-version: '6.0'
 
     - name: Build and test
       run: |
