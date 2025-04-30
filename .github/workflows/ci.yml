@@ -16,7 +16,7 @@ jobs:
     - name: Set up Swift
       uses: swift-actions/setup-swift@v1
       with:
-        swift-version: '5.9' # или подходящая версия
+        swift-version: '6.0' # или подходящая версия
 
     - name: Build and test
       run: |
